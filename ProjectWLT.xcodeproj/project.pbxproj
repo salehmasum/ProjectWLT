@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51952BED1FB98EB600660B3B /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51952BEC1FB98EB600660B3B /* CustomError.swift */; };
 		51A7C1B71FB2DB8600C71EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1B61FB2DB8600C71EE2 /* AppDelegate.swift */; };
 		51A7C1B91FB2DB8600C71EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1B81FB2DB8600C71EE2 /* ViewController.swift */; };
 		51A7C1BC1FB2DB8600C71EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A7C1BA1FB2DB8600C71EE2 /* Main.storyboard */; };
@@ -14,6 +15,17 @@
 		51A7C1C11FB2DB8600C71EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A7C1BF1FB2DB8600C71EE2 /* LaunchScreen.storyboard */; };
 		51A7C1CC1FB2DB8600C71EE2 /* ProjectWLTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1CB1FB2DB8600C71EE2 /* ProjectWLTTests.swift */; };
 		51A7C1D71FB2DB8600C71EE2 /* ProjectWLTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1D61FB2DB8600C71EE2 /* ProjectWLTUITests.swift */; };
+		51A7C1F31FB2E65C00C71EE2 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1ED1FB2E65C00C71EE2 /* LoginInteractor.swift */; };
+		51A7C1F41FB2E65C00C71EE2 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1EE1FB2E65C00C71EE2 /* LoginModels.swift */; };
+		51A7C1F51FB2E65C00C71EE2 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1EF1FB2E65C00C71EE2 /* LoginPresenter.swift */; };
+		51A7C1F61FB2E65C00C71EE2 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1F01FB2E65C00C71EE2 /* LoginRouter.swift */; };
+		51A7C1F71FB2E65C00C71EE2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1F11FB2E65C00C71EE2 /* LoginViewController.swift */; };
+		51A7C1F81FB2E65C00C71EE2 /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1F21FB2E65C00C71EE2 /* LoginWorker.swift */; };
+		51A7C1FA1FB2FDD900C71EE2 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1F91FB2FDD900C71EE2 /* LoginResponseModel.swift */; };
+		51A7C1FC1FB309E700C71EE2 /* AuthenticationWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1FB1FB309E700C71EE2 /* AuthenticationWorker.swift */; };
+		51A7C1FE1FB30F7000C71EE2 /* WPAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1FD1FB30F7000C71EE2 /* WPAuthenticationService.swift */; };
+		51A7C2011FB3256B00C71EE2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A7C2001FB3256B00C71EE2 /* Alamofire.framework */; };
+		51A7C2061FB3269300C71EE2 /* WPRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C2051FB3269300C71EE2 /* WPRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51952BEC1FB98EB600660B3B /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010CustomError.swift"; sourceTree = "<group>"; };
 		51A7C1B31FB2DB8600C71EE2 /* ProjectWLT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWLT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A7C1B61FB2DB8600C71EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51A7C1B81FB2DB8600C71EE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,17 @@
 		51A7C1D21FB2DB8600C71EE2 /* ProjectWLTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectWLTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A7C1D61FB2DB8600C71EE2 /* ProjectWLTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectWLTUITests.swift; sourceTree = "<group>"; };
 		51A7C1D81FB2DB8600C71EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51A7C1ED1FB2E65C00C71EE2 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		51A7C1EE1FB2E65C00C71EE2 /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		51A7C1EF1FB2E65C00C71EE2 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		51A7C1F01FB2E65C00C71EE2 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		51A7C1F11FB2E65C00C71EE2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		51A7C1F21FB2E65C00C71EE2 /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
+		51A7C1F91FB2FDD900C71EE2 /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
+		51A7C1FB1FB309E700C71EE2 /* AuthenticationWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationWorker.swift; sourceTree = "<group>"; };
+		51A7C1FD1FB30F7000C71EE2 /* WPAuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPAuthenticationService.swift; sourceTree = "<group>"; };
+		51A7C2001FB3256B00C71EE2 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		51A7C2051FB3269300C71EE2 /* WPRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51A7C2011FB3256B00C71EE2 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,7 @@
 				51A7C1CA1FB2DB8600C71EE2 /* ProjectWLTTests */,
 				51A7C1D51FB2DB8600C71EE2 /* ProjectWLTUITests */,
 				51A7C1B41FB2DB8600C71EE2 /* Products */,
+				51A7C1FF1FB3256A00C71EE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +123,12 @@
 		51A7C1B51FB2DB8600C71EE2 /* ProjectWLT */ = {
 			isa = PBXGroup;
 			children = (
+				51A7C1E91FB2E2C100C71EE2 /* Scenes */,
+				51A7C1E81FB2E2B500C71EE2 /* Workers */,
+				51A7C1E71FB2E2B000C71EE2 /* Services */,
+				51A7C1E61FB2E2AB00C71EE2 /* Models */,
+				51A7C1E51FB2E2A500C71EE2 /* Managers */,
+				51A7C1E41FB2E29A00C71EE2 /* Utilities */,
 				51A7C1B61FB2DB8600C71EE2 /* AppDelegate.swift */,
 				51A7C1B81FB2DB8600C71EE2 /* ViewController.swift */,
 				51A7C1BA1FB2DB8600C71EE2 /* Main.storyboard */,
@@ -125,6 +157,107 @@
 			path = ProjectWLTUITests;
 			sourceTree = "<group>";
 		};
+		51A7C1E41FB2E29A00C71EE2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				51952BEC1FB98EB600660B3B /* CustomError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		51A7C1E51FB2E2A500C71EE2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				51A7C2041FB3268200C71EE2 /* NetworkManager */,
+				51A7C2031FB3266A00C71EE2 /* DatabaseManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		51A7C1E61FB2E2AB00C71EE2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				51A7C1F91FB2FDD900C71EE2 /* LoginResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		51A7C1E71FB2E2B000C71EE2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				51A7C1FD1FB30F7000C71EE2 /* WPAuthenticationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		51A7C1E81FB2E2B500C71EE2 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				51A7C1FB1FB309E700C71EE2 /* AuthenticationWorker.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		51A7C1E91FB2E2C100C71EE2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				51A7C1EC1FB2E62600C71EE2 /* ForgetPassword */,
+				51A7C1EB1FB2E62100C71EE2 /* Registration */,
+				51A7C1EA1FB2E5F500C71EE2 /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		51A7C1EA1FB2E5F500C71EE2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				51A7C1ED1FB2E65C00C71EE2 /* LoginInteractor.swift */,
+				51A7C1EE1FB2E65C00C71EE2 /* LoginModels.swift */,
+				51A7C1EF1FB2E65C00C71EE2 /* LoginPresenter.swift */,
+				51A7C1F01FB2E65C00C71EE2 /* LoginRouter.swift */,
+				51A7C1F11FB2E65C00C71EE2 /* LoginViewController.swift */,
+				51A7C1F21FB2E65C00C71EE2 /* LoginWorker.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		51A7C1EB1FB2E62100C71EE2 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		51A7C1EC1FB2E62600C71EE2 /* ForgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForgetPassword;
+			sourceTree = "<group>";
+		};
+		51A7C1FF1FB3256A00C71EE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51A7C2001FB3256B00C71EE2 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51A7C2031FB3266A00C71EE2 /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DatabaseManager;
+			sourceTree = "<group>";
+		};
+		51A7C2041FB3268200C71EE2 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				51A7C2051FB3269300C71EE2 /* WPRouter.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +268,7 @@
 				51A7C1AF1FB2DB8600C71EE2 /* Sources */,
 				51A7C1B01FB2DB8600C71EE2 /* Frameworks */,
 				51A7C1B11FB2DB8600C71EE2 /* Resources */,
+				51A7C2021FB3258300C71EE2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -254,13 +388,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51A7C2021FB3258300C71EE2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51A7C1AF1FB2DB8600C71EE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51A7C1F71FB2E65C00C71EE2 /* LoginViewController.swift in Sources */,
 				51A7C1B91FB2DB8600C71EE2 /* ViewController.swift in Sources */,
+				51A7C1F41FB2E65C00C71EE2 /* LoginModels.swift in Sources */,
+				51A7C1F61FB2E65C00C71EE2 /* LoginRouter.swift in Sources */,
 				51A7C1B71FB2DB8600C71EE2 /* AppDelegate.swift in Sources */,
+				51A7C2061FB3269300C71EE2 /* WPRouter.swift in Sources */,
+				51A7C1FE1FB30F7000C71EE2 /* WPAuthenticationService.swift in Sources */,
+				51A7C1F31FB2E65C00C71EE2 /* LoginInteractor.swift in Sources */,
+				51952BED1FB98EB600660B3B /* CustomError.swift in Sources */,
+				51A7C1FA1FB2FDD900C71EE2 /* LoginResponseModel.swift in Sources */,
+				51A7C1FC1FB309E700C71EE2 /* AuthenticationWorker.swift in Sources */,
+				51A7C1F51FB2E65C00C71EE2 /* LoginPresenter.swift in Sources */,
+				51A7C1F81FB2E65C00C71EE2 /* LoginWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -428,6 +590,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J52R8YYJBF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ProjectWLT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.selise.ProjectWLT;
@@ -443,6 +609,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J52R8YYJBF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ProjectWLT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.selise.ProjectWLT;
