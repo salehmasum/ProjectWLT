@@ -27,7 +27,7 @@ class LoginPresenter: LoginPresentationLogic
   func presentLoginResponseModel(response: Login.InitiateLogIn.Response)
   {
     //make view model from response model
-    let displayedModel = Login.InitiateLogIn.ViewModel.DisplayableResponse(token: response.responseModel.token)
+    let displayedModel = Login.InitiateLogIn.ViewModel.DisplayableResponse(firstName: response.responseModel.firstName, lastName: response.responseModel.lastName)
     let viewModel = Login.InitiateLogIn.ViewModel(displayedResponse: displayedModel)
     viewController?.displayLoginResult(viewModel: viewModel)
   }

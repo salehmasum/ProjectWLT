@@ -25,7 +25,7 @@ protocol LoginDataStore
 class LoginInteractor: LoginBusinessLogic, LoginDataStore
 {
   var presenter: LoginPresentationLogic?
-  var authenticationWorker = AuthenticationWorker(authenticationService: WPAuthenticationService())
+  var authenticationWorker = AuthenticationWorker(authenticationService: LoginService())
   
   // MARK: LoginWithRequest
   

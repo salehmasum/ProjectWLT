@@ -25,12 +25,13 @@ enum Login
     }
     struct Response
     {
-      var responseModel: LoginResponseModel
+      var responseModel: User
     }
     struct ViewModel
     {
       struct DisplayableResponse {
-        var token: String
+        var firstName: String
+        var lastName: String
       }
       var displayedResponse: DisplayableResponse
     }

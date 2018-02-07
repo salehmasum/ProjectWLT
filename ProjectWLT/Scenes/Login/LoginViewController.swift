@@ -95,19 +95,13 @@ class LoginViewController: UITableViewController, LoginDisplayLogic
   func displayLoginResult(viewModel: Login.InitiateLogIn.ViewModel)
   {
     UIApplication.shared.isNetworkActivityIndicatorVisible = false
-    print("\(viewModel.displayedResponse.token)")
+    print("\(viewModel.displayedResponse.firstName) \(viewModel.displayedResponse.lastName)")
   }
   
   func presentError(error: Error)
   {
     UIApplication.shared.isNetworkActivityIndicatorVisible = false
     print("\(error.localizedDescription)")
-    switch error {
-    case APIError.noInternetConnectionError:
-      print("no internet connection");
-    default:
-      print("service / api error");
-    }
   }
   
   // MARK: - Action Methods

@@ -10,25 +10,18 @@ import Foundation
 
 class AuthenticationWorker
 {
-  var authenticationService: AuthenticationProtocol
+  var authenticationService: LoginProtocol
   
-  init(authenticationService: AuthenticationProtocol)
+  init(authenticationService: LoginProtocol)
   {
       self.authenticationService = authenticationService
   }
   
-  func initiateLoginProcess(withCredentials payload: Login.InitiateLogIn.Request, completionHandler: @escaping (LoginResponseModel?, Error?) -> Void ) {
+  func initiateLoginProcess(withCredentials payload: Login.InitiateLogIn.Request, completionHandler: @escaping (User?, Error?) -> Void ) {
     self.authenticationService.loginRequest(withCredentials: payload) { (responseObject, error) in
-      
       completionHandler(responseObject, error)
-      
     }
   }
   
 }
 
-
-protocol AuthenticationProtocol
-{
-  func loginRequest(withCredentials payload: Login.InitiateLogIn.Request, completionHandler: @escaping (LoginResponseModel?, Error?) -> Void )
-}
