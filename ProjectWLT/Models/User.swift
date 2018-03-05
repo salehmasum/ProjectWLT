@@ -4,7 +4,7 @@
 //
 //  Created by Saleh Masum on 2/7/18.
 //  Copyright © 2018 Selise. All rights reserved.
-//
+//User Model
 
 import Foundation
 
