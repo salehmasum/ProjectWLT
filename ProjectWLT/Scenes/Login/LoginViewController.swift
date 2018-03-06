@@ -96,6 +96,7 @@ class LoginViewController: UITableViewController, LoginDisplayLogic
   {
     UIApplication.shared.isNetworkActivityIndicatorVisible = false
     print("\(viewModel.displayedResponse.firstName) \(viewModel.displayedResponse.lastName)")
+    performSegue(withIdentifier: "LandingScene", sender: self)
   }
   
   func presentError(error: Error)
@@ -119,5 +120,8 @@ class LoginViewController: UITableViewController, LoginDisplayLogic
   }
   ///
   
+  override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+    return false
+  }
   
 }

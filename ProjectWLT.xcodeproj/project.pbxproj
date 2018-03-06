@@ -14,6 +14,12 @@
 		5192B865202ADDF500B0FACE /* ServiceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5192B864202ADDF500B0FACE /* ServiceProtocols.swift */; };
 		5192B867202AF85200B0FACE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5192B866202AF85200B0FACE /* User.swift */; };
 		51952BED1FB98EB600660B3B /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51952BEC1FB98EB600660B3B /* CustomError.swift */; };
+		519885B6204E9B52004E690A /* LandingSceneVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519885B0204E9B52004E690A /* LandingSceneVCInteractor.swift */; };
+		519885B7204E9B52004E690A /* LandingSceneVCModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519885B1204E9B52004E690A /* LandingSceneVCModels.swift */; };
+		519885B8204E9B52004E690A /* LandingSceneVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519885B2204E9B52004E690A /* LandingSceneVCPresenter.swift */; };
+		519885B9204E9B52004E690A /* LandingSceneVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519885B3204E9B52004E690A /* LandingSceneVCRouter.swift */; };
+		519885BA204E9B52004E690A /* LandingSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519885B4204E9B52004E690A /* LandingSceneViewController.swift */; };
+		519885BB204E9B52004E690A /* LandingSceneVCWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519885B5204E9B52004E690A /* LandingSceneVCWorker.swift */; };
 		51A7C1B71FB2DB8600C71EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1B61FB2DB8600C71EE2 /* AppDelegate.swift */; };
 		51A7C1B91FB2DB8600C71EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1B81FB2DB8600C71EE2 /* ViewController.swift */; };
 		51A7C1BC1FB2DB8600C71EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A7C1BA1FB2DB8600C71EE2 /* Main.storyboard */; };
@@ -59,6 +65,12 @@
 		5192B864202ADDF500B0FACE /* ServiceProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocols.swift; sourceTree = "<group>"; };
 		5192B866202AF85200B0FACE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		51952BEC1FB98EB600660B3B /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010CustomError.swift"; sourceTree = "<group>"; };
+		519885B0204E9B52004E690A /* LandingSceneVCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingSceneVCInteractor.swift; sourceTree = "<group>"; };
+		519885B1204E9B52004E690A /* LandingSceneVCModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingSceneVCModels.swift; sourceTree = "<group>"; };
+		519885B2204E9B52004E690A /* LandingSceneVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingSceneVCPresenter.swift; sourceTree = "<group>"; };
+		519885B3204E9B52004E690A /* LandingSceneVCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingSceneVCRouter.swift; sourceTree = "<group>"; };
+		519885B4204E9B52004E690A /* LandingSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingSceneViewController.swift; sourceTree = "<group>"; };
+		519885B5204E9B52004E690A /* LandingSceneVCWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingSceneVCWorker.swift; sourceTree = "<group>"; };
 		51A7C1B31FB2DB8600C71EE2 /* ProjectWLT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWLT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A7C1B61FB2DB8600C71EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51A7C1B81FB2DB8600C71EE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +123,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		519885AD204E9AE5004E690A /* LandingScene */ = {
+			isa = PBXGroup;
+			children = (
+				519885B0204E9B52004E690A /* LandingSceneVCInteractor.swift */,
+				519885B1204E9B52004E690A /* LandingSceneVCModels.swift */,
+				519885B2204E9B52004E690A /* LandingSceneVCPresenter.swift */,
+				519885B3204E9B52004E690A /* LandingSceneVCRouter.swift */,
+				519885B4204E9B52004E690A /* LandingSceneViewController.swift */,
+				519885B5204E9B52004E690A /* LandingSceneVCWorker.swift */,
+			);
+			path = LandingScene;
+			sourceTree = "<group>";
+		};
 		51A7C1AA1FB2DB8600C71EE2 = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +242,7 @@
 		51A7C1E91FB2E2C100C71EE2 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				519885AD204E9AE5004E690A /* LandingScene */,
 				51A7C1EC1FB2E62600C71EE2 /* ForgetPassword */,
 				51A7C1EB1FB2E62100C71EE2 /* Registration */,
 				51A7C1EA1FB2E5F500C71EE2 /* Login */,
@@ -428,6 +454,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519885BA204E9B52004E690A /* LandingSceneViewController.swift in Sources */,
+				519885B8204E9B52004E690A /* LandingSceneVCPresenter.swift in Sources */,
+				519885B6204E9B52004E690A /* LandingSceneVCInteractor.swift in Sources */,
 				5192B863202ADD0D00B0FACE /* LoginService.swift in Sources */,
 				51A7C1F71FB2E65C00C71EE2 /* LoginViewController.swift in Sources */,
 				51A7C1B91FB2DB8600C71EE2 /* ViewController.swift in Sources */,
@@ -442,6 +471,9 @@
 				51952BED1FB98EB600660B3B /* CustomError.swift in Sources */,
 				51A7C1FA1FB2FDD900C71EE2 /* LoginResponseModel.swift in Sources */,
 				51A7C1FC1FB309E700C71EE2 /* AuthenticationWorker.swift in Sources */,
+				519885B9204E9B52004E690A /* LandingSceneVCRouter.swift in Sources */,
+				519885BB204E9B52004E690A /* LandingSceneVCWorker.swift in Sources */,
+				519885B7204E9B52004E690A /* LandingSceneVCModels.swift in Sources */,
 				5192B85F202AC74A00B0FACE /* NetworkConstants.swift in Sources */,
 				5192B865202ADDF500B0FACE /* ServiceProtocols.swift in Sources */,
 				51A7C1F51FB2E65C00C71EE2 /* LoginPresenter.swift in Sources */,

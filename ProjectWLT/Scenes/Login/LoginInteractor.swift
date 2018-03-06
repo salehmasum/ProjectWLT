@@ -19,7 +19,7 @@ protocol LoginBusinessLogic
 
 protocol LoginDataStore
 {
-  //var name: String { get set }
+  var responseModel: User? { get }
 }
 
 class LoginInteractor: LoginBusinessLogic, LoginDataStore
@@ -28,6 +28,7 @@ class LoginInteractor: LoginBusinessLogic, LoginDataStore
   var authenticationWorker = AuthenticationWorker(authenticationService: LoginService())
   
   // MARK: LoginWithRequest
+  var responseModel: User?
   
   func loginWithRequest(request: Login.InitiateLogIn.Request)
   {
@@ -36,6 +37,7 @@ class LoginInteractor: LoginBusinessLogic, LoginDataStore
       if let responseModel = responseModel {
         let loginResponse = Login.InitiateLogIn.Response(responseModel: responseModel)
         self.presenter?.presentLoginResponseModel(response: loginResponse)
+        self.responseModel = responseModel
       }else {
         self.presenter?.presentError(error: error!)
       }
