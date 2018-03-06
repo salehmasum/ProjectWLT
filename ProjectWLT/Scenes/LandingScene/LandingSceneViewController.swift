@@ -11,6 +11,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 protocol LandingSceneVCDisplayLogic: class
 {
@@ -107,8 +108,7 @@ class LandingSceneViewController: UIViewController, LandingSceneVCDisplayLogic
     self.firstNameLbl.text = viewModel.userInfo.firstName
     self.lastNameLbl.text  = viewModel.userInfo.lastName
     self.emailLbl.text     = viewModel.userInfo.email
-    
-    
+    imageView.kf.setImage(with: viewModel.userInfo.image)
   }
   //  //  //
 }

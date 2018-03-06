@@ -20,6 +20,7 @@
 		519885B9204E9B52004E690A /* LandingSceneVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519885B3204E9B52004E690A /* LandingSceneVCRouter.swift */; };
 		519885BA204E9B52004E690A /* LandingSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519885B4204E9B52004E690A /* LandingSceneViewController.swift */; };
 		519885BB204E9B52004E690A /* LandingSceneVCWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519885B5204E9B52004E690A /* LandingSceneVCWorker.swift */; };
+		519885BD204EBEBC004E690A /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519885BC204EBEBB004E690A /* Kingfisher.framework */; };
 		51A7C1B71FB2DB8600C71EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1B61FB2DB8600C71EE2 /* AppDelegate.swift */; };
 		51A7C1B91FB2DB8600C71EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C1B81FB2DB8600C71EE2 /* ViewController.swift */; };
 		51A7C1BC1FB2DB8600C71EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A7C1BA1FB2DB8600C71EE2 /* Main.storyboard */; };
@@ -71,6 +72,7 @@
 		519885B3204E9B52004E690A /* LandingSceneVCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingSceneVCRouter.swift; sourceTree = "<group>"; };
 		519885B4204E9B52004E690A /* LandingSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingSceneViewController.swift; sourceTree = "<group>"; };
 		519885B5204E9B52004E690A /* LandingSceneVCWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingSceneVCWorker.swift; sourceTree = "<group>"; };
+		519885BC204EBEBB004E690A /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		51A7C1B31FB2DB8600C71EE2 /* ProjectWLT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWLT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A7C1B61FB2DB8600C71EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51A7C1B81FB2DB8600C71EE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51A7C2011FB3256B00C71EE2 /* Alamofire.framework in Frameworks */,
+				519885BD204EBEBC004E690A /* Kingfisher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +283,7 @@
 		51A7C1FF1FB3256A00C71EE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				519885BC204EBEBB004E690A /* Kingfisher.framework */,
 				51A7C2001FB3256B00C71EE2 /* Alamofire.framework */,
 			);
 			name = Frameworks;
@@ -440,6 +444,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 			);
 			outputPaths = (
 			);
